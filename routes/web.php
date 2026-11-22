@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return response()->json(['name' => 'Budget Control API', 'version' => 'v1']);
+    return response()->json(['name' => 'Contract Control API', 'version' => 'v1']);
 });
